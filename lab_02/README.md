@@ -1,21 +1,12 @@
-# Computer Vision Lab 2019
+# Lab 02
 Code for the Computer Vision Lab 2019 at the Johannes Kepler University Linz, Austria.
-
-Slides and material for the course can be found at Moodle:
- https://moodle.jku.at/jku2015/course/view.php?id=6505
-
-
-# Staff
- * Oliver Bimber
- * David Schedl 
- * Indrajit Kurmi
-
+Slides and material for the course can be found on Moodle: https://moodle.jku.at/jku2015/course/view.php?id=6505
 
 # Structure
 
- * 01_lab: contains the code for the Introduction to Matlab
- * 02_lab: code for the Introduction to the Image and Computer Vision Toolboxes
- * 03_lab: contains code and data for the semester project
+ * `*.m`: Matlab scripts
+ * `data/`: contains data (e.g., images and .mat files) used in the scripts
+ * `results/`: results of the scripts will be written into that folder
    
 # Requirements
 
