@@ -4,10 +4,11 @@ clear; close all; clc; % clean up!
 % -------------------------------------------------------------------------
 
 
-% Define folder with images to process
 % RGB images:
 % WARNING: images are quite large and thus calibration takes time
 % imgData = imageDatastore( fullfile( 'data/calibration/RGB/' ) );
+% DOWNLOAD from: https://drive.google.com/open?id=1sn5okDv9zIt2ieGDdhi8-QqPwrsDI4-P
+
 % thermal images: (lower resolution)
 imgData = imageDatastore( fullfile( 'data/calibration/thermal/' ) );
 imageFileNames = imgData.Files;
