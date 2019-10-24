@@ -4,11 +4,13 @@ clear; close all; clc; % clean up!
 % -------------------------------------------------------------------------
 
 
-% Define images to process
-imgData = imageDatastore( fullfile( '../data/calibration/RGB/' ) );
-%imgData = imageDatastore( fullfile( '../data/calibration/thermal/' ) );
+% Define folder with images to process
+% RGB images:
+% WARNING: images are quite large and thus calibration takes time
+% imgData = imageDatastore( fullfile( 'data/calibration/RGB/' ) );
+% thermal images: (lower resolution)
+imgData = imageDatastore( fullfile( 'data/calibration/thermal/' ) );
 imageFileNames = imgData.Files;
-
 
 % Detect checkerboards in images
 [imagePoints, boardSize, imagesUsed] = detectCheckerboardPoints(imageFileNames);
@@ -33,12 +35,6 @@ worldPoints = generateCheckerboardPoints(boardSize, squareSize);
     'NumRadialDistortionCoefficients', 2, 'WorldUnits', 'millimeters', ...
     'InitialIntrinsicMatrix', [], 'InitialRadialDistortion', [], ...
     'ImageSize', [mrows, ncols]);
-% % Calibrate the camera ADVANCED (more parameters)
-% [cameraParams, imagesUsed, estimationErrors] = estimateCameraParameters(imagePoints, worldPoints, ...
-%     'EstimateSkew', false, 'EstimateTangentialDistortion', true, ...
-%     'NumRadialDistortionCoefficients', 2, 'WorldUnits', 'millimeters', ...
-%     'InitialIntrinsicMatrix', [], 'InitialRadialDistortion', [], ...
-%     'ImageSize', [mrows, ncols]);
 
 
 % View reprojection errors
@@ -52,10 +48,13 @@ displayErrors(estimationErrors, cameraParams);
 
 % Store for later usage:
 if ~isempty(strfind( imgData.Files{1}, 'RGB' ))
-    save( 'camParams_RGB.mat', 'cameraParams', 'imageFileNames', 'estimationErrors' );
+    save( 'results/camParams_RGB.mat', 'cameraParams', 'imageFileNames', 'estimationErrors' );
 elseif ~isempty(strfind( imgData.Files{1}, 'thermal' ))
-    save( 'camParams_thermal.mat', 'cameraParams', 'imageFileNames', 'estimationErrors' );
+    save( 'results/camParams_thermal.mat', 'cameraParams', 'imageFileNames', 'estimationErrors' );
 end
 
-% For example, you can use the calibration data to remove effects of lens distortion.
+%% For example, you can use the calibration data to remove effects of lens distortion.
 undistortedImage = undistortImage(originalImage, cameraParams);
+figure; subplot(1,2,1); imshow( originalImage ); title( 'original' );
+subplot(1,2,2); imshow( undistortedImage ); title( 'undistored' );
+

@@ -2,7 +2,7 @@
 clear; close all; clc; % clean up!
 
 %% Load and Display an Image
-I = imread('pillsetc.png'); % Read and load image in the workspace
+I = imread('data/pillsetc.png'); % Read and load image in the workspace
 size(I) % display the image size
 
 figure(1); % Create new figure
@@ -41,7 +41,7 @@ subplot(2,2,4); imhist(E); % equalized histogram
 % luminance values in the histogram.
 
 %% Export the processed image
-imwrite (E, 'pillsetc_g_histeq.png');
+imwrite (E, 'results/pillsetc_g_histeq.png');
 
 %% Geometric operations
 resized = imresize(G, 0.25); % resize an image to quater resolution
@@ -96,9 +96,7 @@ kernelSize = 13;
 sigma = 2;
 K = fspecial('gaussian',kernelSize,sigma);
 figure(7);
-subplot(1,2,1); surface(X,Y,K, 'FaceColor', 'interp' ); % plot as surface
-view(3); title('Gaussian'); axis square;
-subplot(1,2,2); imshow(K, []); title('Gaussian'); % show as image
+imshow(K, []); title('Gaussian'); % show as image
 
 %% Manual Gaussian Kernel
 % Lets now compute our own manual gaussian kernel
@@ -116,7 +114,7 @@ subplot(1,2,2); imshow(manualK, []); title('manual Gaussian');
 F1 = imfilter(saltAndPepper, K, 'replicate'); 
 F2 = imfilter(F1, K, 'replicate');
 F3 = imfilter(F2, K, 'replicate');
-figure(8); %Generate a new figure and display:
+figure(9); %Generate a new figure and display:
 subplot(2,2,1); imshow(saltAndPepper); title('Salt and pepper added noisy image ');
 subplot(2,2,2); imshow(F1); title('Gaussian filtered');
 subplot(2,2,3); imshow(F2); title('2x Gaussian');
@@ -127,7 +125,7 @@ sobel = edge(G, 'Sobel');
 canny = edge(G, 'Canny');
 log = edge(G, 'log');
 
-figure(9); %Generate a new figure
+figure(10); %Generate a new figure
 subplot(2,2,1); imshow(G); title('original image');
 subplot(2,2,2); imshow(sobel); title('Sobel');
 subplot(2,2,3); imshow(canny); title('Canny');
