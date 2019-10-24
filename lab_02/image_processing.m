@@ -41,6 +41,7 @@ subplot(2,2,4); imhist(E); % equalized histogram
 % luminance values in the histogram.
 
 %% Export the processed image
+if ~exist( 'results', 'dir' ), mkdir( 'results' ); end;
 imwrite (E, 'results/pillsetc_g_histeq.png');
 
 %% Geometric operations
