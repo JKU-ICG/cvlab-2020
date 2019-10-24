@@ -143,7 +143,6 @@ for i = 1:numImages
     
     % Transform I into the panorama.
     warpedImage = imwarp(I, tforms(i), 'OutputView', panoramaView);
-    imwrite( warpedImage, sprintf( "results/warped_%03d.jpg", i ) );
                   
     % Generate a binary mask. 
     mask = true(size(I,1),size(I,2));
@@ -155,4 +154,5 @@ end
 
 figure(15)
 imshow(panorama); title( 'panorama' );
+if ~exist( 'results', 'dir' ), mkdir( 'results' ); end;
 imwrite( panorama, "results/panorama.jpg"  );
