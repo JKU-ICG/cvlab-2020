@@ -15,7 +15,7 @@ Slides and material for the course can be found at Moodle:
 
  * lab_01: contains the code for the Introduction to Matlab
  * lab_02: code for the Introduction to the Image and Computer Vision Toolboxes
- ~~* lab_03: contains code and data for the semester project~~
+ * ~~lab_03: contains code and data for the semester project~~
    
 # Requirements
 
