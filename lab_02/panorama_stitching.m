@@ -38,8 +38,83 @@ tforms(1) = projective2d(eye(3));
 imageSize = zeros(numImages,2);
 imageSize(1,:) = size(grayImage);
 
+% Store points and features for I(1) as previous .
+pointsPrevious = points;
+featuresPrevious = features;
+grayImagePrev = grayImage;
+
+%% features for I(2)
+% Read I(n=2).
+n = 2;
+I = readimage(buildingScene, n);
+
+% Convert image to grayscale.
+grayImage = rgb2gray(I);    
+
+% Save image size.
+imageSize(n,:) = size(grayImage);
+
+% Detect and extract SURF features for I(n).
+points = detectSURFFeatures(grayImage);    
+[features, points] = extractFeatures(grayImage, points);
+figure(1+n); % display
+set(gcf, 'Color', 'white' )
+imshow(grayImage); hold on;
+plot( points.selectStrongest(25) ); 
+title( ['strongest SURF features image ' num2str(n)] );
+
+% Find correspondences between I(n) and I(n-1).
+indexPairs = matchFeatures(features, featuresPrevious, 'Unique', false);
+
+matchedPoints = points(indexPairs(:,1), :);
+matchedPointsPrev = pointsPrevious(indexPairs(:,2), :); 
+
+% Display inbetween:
+figure(10+n); clf;
+showMatchedFeatures(grayImage, grayImagePrev, matchedPoints, matchedPointsPrev,'montage');
+title( [ 'Tracked Features of images ' num2str(n-1) ' and ' num2str(n) ]);
+drawnow;
+
+% Estimate the transformation between I(n) and I(n-1).
+tforms(n) = estimateGeometricTransform(matchedPoints, matchedPointsPrev,...
+    'projective', 'Confidence', 90, 'MaxNumTrials', 2000, 'MaxDistance', 2 );
+
+%% transform a matched feature point from I(1) onto I(2)
+
+% select a feature in I(1):
+ptI1 = matchedPointsPrev(123); 
+% project it to I(2):
+[xI2,yI2] = tforms(2).transformPointsInverse(ptI1.Location(1),ptI1.Location(2));
+
+% select a feature in I(2):
+ptI2 = matchedPoints(45);
+% project it to I(1):
+[xI1,yI1] = tforms(2).transformPointsForward(ptI2.Location(1),ptI2.Location(2));
+
+% manually do transformation (simple matrix multiplication + division):
+tmp = [ptI2.Location(1),ptI2.Location(2),1] * tforms(2).T;
+manualI1 = tmp(1:2) ./ tmp(3); % homogeneous division
+
+
+% display: 
+%   I(1)->I(2) is red
+%   I(2)->I(1) is blue
+figure(19);
+subplot(1,2,1); % I(1)
+imshow( grayImagePrev ); hold on; title( 'image 1' );
+plot( ptI1.Location(1), ptI1.Location(2), 'r+', 'MarkerSize', 20, 'LineWidth', 3 );
+plot( xI1, yI1, 'b+', 'MarkerSize', 20, 'LineWidth', 3 );
+
+subplot(1,2,2); % I(2)
+imshow( grayImage ); hold on; title( 'image 2' );
+plot( ptI2.Location(1), ptI2.Location(2), 'b+', 'MarkerSize', 20, 'LineWidth', 3 );
+plot( xI2, yI2, 'r+', 'MarkerSize', 20, 'LineWidth', 3 );
+
+
+
+
 %% Iterate over remaining image pairs
-for n = 2:numImages
+for n = 3:numImages
     
     % Store points and features for I(n-1).
     pointsPrevious = points;
@@ -83,7 +158,7 @@ for n = 2:numImages
     % Compute T(n) * T(n-1) * ... * T(1)
     tforms(n).T = tforms(n).T * tforms(n-1).T; 
 end
-%%
+%% compute output limits (panorama size) and make the transformations relative to center image
 
 xlim = zeros( numImages, 2 ); ylim = xlim;
 % Compute the output limits  for each transform
@@ -124,7 +199,7 @@ height = round(yMax - yMin);
 width  = min( width, maxImageSize(2)*numImages/2 );
 height = min( height, maxImageSize(1)*numImages/2 );
 
-
+%% warp and blend 
 % Initialize the "empty" panorama.
 panorama = zeros([height width 3], 'like', I);
 
@@ -152,7 +227,7 @@ for i = 1:numImages
     panorama = step(blender, panorama, warpedImage, mask);
 end
 
-figure(15)
+figure(20)
 imshow(panorama); title( 'panorama' );
 if ~exist( 'results', 'dir' ), mkdir( 'results' ); end;
 imwrite( panorama, "results/panorama.jpg"  );
