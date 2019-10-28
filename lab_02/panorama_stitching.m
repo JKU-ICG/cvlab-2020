@@ -6,7 +6,7 @@ clear; close all; clc; % clean up!
 % if you don't want to download the science park dataset you can use
 % Matlab's example images: 
 %   buildingDir = fullfile(toolboxdir('vision'), 'visiondata', 'building');
-buildingDir = 'data\panorama\science_park';
+buildingDir = 'data/panorama/science_park';
 buildingScene = imageDatastore(buildingDir); % datastore keeps all images in a folder
 
 % Display images to be stitched

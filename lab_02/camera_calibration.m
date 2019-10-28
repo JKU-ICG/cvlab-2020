@@ -10,7 +10,7 @@ clear; close all; clc; % clean up!
 % imgData = imageDatastore( fullfile( 'data/calibration/RGB/' ) );
 
 % thermal images: (lower resolution)
-imgData = imageDatastore( fullfile( 'data/calibration/thermal/' ) );
+imgData = imageDatastore( fullfile( './data/calibration/thermal/' ) );
 imageFileNames = imgData.Files;
 
 % Detect checkerboards in images
