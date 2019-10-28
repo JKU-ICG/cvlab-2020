@@ -64,29 +64,6 @@ saltAndPepper = imnoise(G, 'salt & pepper', 0.125);
 figure(5); % Generate a new figure
 subplot(1,2,1); imshow(G); title('input image');
 subplot(1,2,2); imshow(saltAndPepper); title('Salt and pepper on image');
-%% Manual Salt and Pepper noise
-% We can also manually add similiar salt and pepper noise to image by
-% simple image arithmetics
-% Let us first create the white salt noise(1) and the black pepper noise(0).
-SaltNoise = zeros(size(G));
-PixelsIndex = randi(size(SaltNoise,1)*size(SaltNoise,2),(size(SaltNoise,1)*size(SaltNoise,1))*(0.125),1);
-SaltNoise = reshape(SaltNoise, [size(SaltNoise,1)*size(SaltNoise,2),1]);
-Separateindices = randperm (size(PixelsIndex,1));
-SaltIndicesset = PixelsIndex (Separateindices (1:size(PixelsIndex,1)/2), :);
-PepperInicesset = PixelsIndex (Separateindices (size(PixelsIndex,1)/2+1: end), :);
-SaltNoise(SaltIndicesset) = 1; % salt
-SaltNoise = reshape(SaltNoise, [size(G,1) size(G,2)]);
-PepperNoise = ones(size(G));
-PepperNoise = reshape(PepperNoise, [size(PepperNoise,1)*size(PepperNoise,2),1]);
-PepperNoise(PepperInicesset) = 0; % peper
-PepperNoise = reshape(PepperNoise, [size(G,1) size(G,2)]);
-% then we add noise to the image
-SaltAddedImage = imadd(im2double(G), SaltNoise);
-SaltAddedImage(SaltAddedImage>1) = 1;
-SaltandPepperAddedImage = immultiply(SaltAddedImage,PepperNoise);
-figure(6); %Generate a new figure
-subplot(1,2,1); imshow(G); title('input image');
-subplot(1,2,2); imshow(SaltandPepperAddedImage); title('manual Salt and Pepper noise');
 
 %% Convolution - Gaussian Kernel
 % Convolution is mathematical operation on two functions.
@@ -124,15 +101,35 @@ subplot(2,2,4); imshow(F3); title('3x Gaussian');
 %% Image Filtering - Edge detection
 sobel = edge(G, 'Sobel');
 canny = edge(G, 'Canny');
-log = edge(G, 'log');
+laplace = edge(G, 'log');
 
 figure(10); %Generate a new figure
 subplot(2,2,1); imshow(G); title('original image');
 subplot(2,2,2); imshow(sobel); title('Sobel');
 subplot(2,2,3); imshow(canny); title('Canny');
-subplot(2,2,4); imshow(log); title('Laplacian of Gaussian');
+subplot(2,2,4); imshow(laplace); title('Laplacian of Gaussian');
 
 % Note: other operators can be found at: https://de.mathworks.com/help/images/image-analysis.html
+
+%% Fourier Space transformation
+
+% apply a 2D Fourier transformation on grayscale images
+G_  = fft2(G);
+N_  = fft2(saltAndPepper);
+F1_ = fft2(F1);
+
+% display
+figure(11);
+subplot(2,3,1); imshow(G); title('original image');
+subplot(2,3,2); imshow(saltAndPepper); title('noise');
+subplot(2,3,3); imshow(F1); title('filtered');
+% the fourier domain is complex, thus we only display the magnitutes (abs)
+% and we show it logarithmically (log) because the highest peak is always the
+% zero frequency (in the center):
+subplot(2,3,4); imshow(log(abs(fftshift(G_))), [0 17]);  title('Fourier space');
+subplot(2,3,5); imshow(log(abs(fftshift(N_))), [0 17]);  title('Fourier space');
+subplot(2,3,6); imshow(log(abs(fftshift(F1_))),[0 17]); title('Fourier space');
+
 
 %% Further examples and readings
 % For further examples and details see https://www.mathworks.com/help/images/index.html
