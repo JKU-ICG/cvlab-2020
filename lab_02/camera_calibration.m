@@ -79,7 +79,7 @@ imgPtsI = worldToImage(cameraParams,rotMatrix,translVector,worldPts3D,'ApplyDist
 figure(4); 
 subplot(1,2,1); imshow( I ); title( 'reproject on original (with distortions)' ); hold on;
 % also show detected corners in pixels (by detectCheckerboardPoints): 
-%   plot( imagePoints(:,1,useId), imagePoints(:,2,useId), 'r+', 'MarkerSize', 20, 'LineWidth', 3 );
+plot( imagePoints(:,1,useId), imagePoints(:,2,useId), 'r+', 'MarkerSize', 20, 'LineWidth', 3 );
 plot( imgPtsI(:,1), imgPtsI(:,2), 'bx', 'MarkerSize', 20, 'LineWidth', 3 );
 subplot(1,2,2); imshow( U ); title( 'reproject on undistored' ); hold on;
 plot( imgPtsU(:,1), imgPtsU(:,2), 'bx', 'MarkerSize', 20, 'LineWidth', 3 );
