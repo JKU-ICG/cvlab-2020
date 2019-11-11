@@ -148,6 +148,8 @@ worldPoints3D(:,3) = 0;
 % reproject thermal
 thermal_reproj = worldToImage( thermalParams.cameraParams, thermal_rotation, thermal_transl, worldPoints3D );
 % reproject on thermal with RGB rotation and translation
+rgb2thermal_reproj = worldToImage( thermalParams.cameraParams, rgb_rotation*R, 	rgb_transl*R+t, worldPoints3D );
+
 
 % reproject RGB
 rgb_reproj = worldToImage( rgbParams.cameraParams, rgb_rotation, rgb_transl, worldPoints3D );
