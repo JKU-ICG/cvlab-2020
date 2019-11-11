@@ -60,7 +60,7 @@ imshowpair( rgb, thermal, 'falsecolor' );
 %% overlay thermal and rgb images with intrinsics
 
 % we need a transformation to map RGB images to thermal
-% multiplying the inverse RGB intrinsic and the thermal intrinsics is
+% multiplying the inverse RGB intrinsic and the thermal intrinsics
 % results in the proper transformation.
 M = inv(rgbParams.cameraParams.IntrinsicMatrix) * thermalParams.cameraParams.IntrinsicMatrix;
 tform = projective2d( M );
@@ -136,7 +136,25 @@ worldPoints = generateCheckerboardPoints(thermal_boardSize, squareSize);
 [thermal_rotation,thermal_transl] = extrinsics(thermal_imagePoints,worldPoints,thermalParams.cameraParams);
 [rgb_rotation, rgb_transl] = extrinsics(rgb_imagePoints,worldPoints,rgbParams.cameraParams);
 
-% relative transformation (rotation + translation) from RGB to thermal
+
+%% plot location of thermal and RGB camera
+figure(102); clf; hold on;
+grid on; axis equal;
+
+% thermal
+[orientation,location] = extrinsicsToCameraPose( thermal_rotation,thermal_transl );
+plotCamera('Orientation', orientation, 'Location', location , 'Size', 5); 
+text( location(1), location(2), location(3), 'thermal' );
+
+% RGB
+[orientation,location] = extrinsicsToCameraPose( rgb_rotation,rgb_transl );
+plotCamera('Orientation', orientation, 'Location', location , 'Size', 5); 
+text( location(1), location(2), location(3), 'RGB' );
+
+title( 'RGB and thermal poses' );
+
+
+%% relative transformation (rotation + translation) from RGB to thermal
 R = rgb_rotation' * thermal_rotation;
 t = thermal_transl - rgb_transl * R;
 % save:
@@ -158,7 +176,7 @@ thermal2rgb_reproj = worldToImage( rgbParams.cameraParams, thermal_rotation*R', 
 
 
 
-figure(102);
+figure(103);
 subplot(1,2,1); imshow( thermal );  title ( 'thermal' ); hold on;
 plot( thermal_reproj(:,1), thermal_reproj(:,2), 'r+' );
 plot( rgb2thermal_reproj(:,1), rgb2thermal_reproj(:,2), 'gx' );
@@ -166,3 +184,25 @@ subplot(1,2,2); imshow( rgb );  title ( 'RGB' ); hold on;
 plot( rgb_reproj(:,1), rgb_reproj(:,2), 'r+' );
 plot( thermal2rgb_reproj(:,1), thermal2rgb_reproj(:,2), 'gx' );
 
+
+%% estimate transformation from extrinsics (for imwarp)
+z = 900; % millimeters
+% the checkerboard is ~900 millimeters away
+% the tree in the background is ~100000 millimeters (100 m)
+P = (inv(rgbParams.cameraParams.IntrinsicMatrix) * R * thermalParams.cameraParams.IntrinsicMatrix ); 
+P_transl =  (t * thermalParams.cameraParams.IntrinsicMatrix);
+P_ = P; % copy
+P_(3,:) = P_(3,:) + P_transl./z; % add translation
+tform = projective2d( P_ );
+
+% --- warp images ---
+% rgb on thermal
+warpedrgb = imwarp(rgb,tform,'OutputView',imref2d(size(thermal)));
+% thermal on RGB
+warpedthermal = imwarp(thermal,tform.invert(),'OutputView',imref2d(size(rgb)));
+
+figure(104); clf;
+subplot(1,2,1); title ( 'warped thermal to RGB' ); 
+imshowpair( rgb, warpedthermal, 'falsecolor' ); title( 'original RGB, warped thermal' );
+subplot(1,2,2); title ( 'RGB to warped thermal' ); 
+imshowpair( warpedrgb, thermal, 'falsecolor' );  title( 'original thermal, warped RGB' );
