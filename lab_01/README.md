@@ -4,7 +4,7 @@ Slides and material for the course can be found on Moodle: https://moodle.jku.at
 
 # Description
 * Execute commands in cvlab_lab_01_commandsscript.m in command window
-* Could execute commands in cvlab_lab_01_2Dvisualiation.m ,cvlab_lab_01_3Dvisualiation.m , cvlab_lab_01_testscripts.m and cvlab_01_functionandcellmode.m independently or in specified order
+* Could execute scripts in cvlab_lab_01_2Dvisualiation.m ,cvlab_lab_01_3Dvisualiation.m , cvlab_lab_01_testscripts.m and cvlab_01_functionandcellmode.m independently or in specified order
 
 # Structure
 
