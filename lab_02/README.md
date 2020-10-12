@@ -1,6 +1,6 @@
 # Lab 02
-Code for the Computer Vision Lab 2019 at the Johannes Kepler University Linz, Austria.
-Slides and material for the course can be found on Moodle: https://moodle.jku.at/jku2015/course/view.php?id=6505
+Code for the Computer Vision Lab 2020 at the Johannes Kepler University Linz, Austria.
+Slides and material for the course can be found on Moodle: https://moodle.jku.at/jku/course/view.php?id=11749
 
 # Structure
 
