@@ -1,0 +1,955 @@
+[
+{
+ "frame_id":1, 
+ "filename":"data/NAOS/CVLAB/TEST/T1/T1_line3.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019261, "center_y":0.979363, "width":0.048001, "height":0.039661}, "confidence":0.009122}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.546634, "center_y":0.985200, "width":0.090807, "height":0.028593}, "confidence":0.005369}
+ ] 
+}, 
+{
+ "frame_id":2, 
+ "filename":"data/NAOS/CVLAB/TEST/T1/T1_line4.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.489168, "center_y":0.391623, "width":0.076306, "height":0.096600}, "confidence":0.305238}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.505695, "center_y":0.415756, "width":0.074345, "height":0.094562}, "confidence":0.035228}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.508445, "center_y":0.365621, "width":0.079981, "height":0.096455}, "confidence":0.013340}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.459750, "center_y":0.417814, "width":0.082075, "height":0.094943}, "confidence":0.011634}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.483609, "center_y":0.446513, "width":0.085291, "height":0.089217}, "confidence":0.007467}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"data/NAOS/CVLAB/TEST/T1/T1_line5.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.381768, "center_y":0.427815, "width":0.096159, "height":0.074304}, "confidence":0.225402}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.363913, "center_y":0.445229, "width":0.090975, "height":0.074689}, "confidence":0.117573}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.385455, "center_y":0.399658, "width":0.089473, "height":0.083867}, "confidence":0.007151}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.359195, "center_y":0.475037, "width":0.087794, "height":0.077686}, "confidence":0.005455}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.333175, "center_y":0.424843, "width":0.088772, "height":0.084042}, "confidence":0.005277}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"data/NAOS/CVLAB/TEST/T1/T1_line6.png", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"data/NAOS/CVLAB/TEST/T1/T1_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.977075, "center_y":0.978918, "width":0.048385, "height":0.043501}, "confidence":0.005987}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"data/NAOS/CVLAB/TEST/T1/T1_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981176, "center_y":0.024309, "width":0.043845, "height":0.046970}, "confidence":0.064540}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.992149, "center_y":0.011474, "width":0.025436, "height":0.021719}, "confidence":0.015115}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.958254, "center_y":0.017799, "width":0.067410, "height":0.031886}, "confidence":0.008533}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"data/NAOS/CVLAB/TEST/T2/T2_line3.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.799265, "center_y":0.730489, "width":0.078179, "height":0.098812}, "confidence":0.284945}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.817687, "center_y":0.708851, "width":0.074405, "height":0.104340}, "confidence":0.074002}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.770888, "center_y":0.705890, "width":0.083159, "height":0.101607}, "confidence":0.026953}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.798504, "center_y":0.678304, "width":0.078945, "height":0.103090}, "confidence":0.023970}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.818818, "center_y":0.759281, "width":0.076396, "height":0.093352}, "confidence":0.014622}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.955663, "center_y":0.014660, "width":0.105995, "height":0.026583}, "confidence":0.005639}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"data/NAOS/CVLAB/TEST/T2/T2_line4.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.883167, "center_y":0.739147, "width":0.121431, "height":0.101327}, "confidence":0.439259}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.861389, "center_y":0.710616, "width":0.103993, "height":0.115440}, "confidence":0.020950}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.980639, "center_y":0.021051, "width":0.041365, "height":0.043138}, "confidence":0.008987}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.015781, "center_y":0.973814, "width":0.040193, "height":0.046123}, "confidence":0.005951}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"data/NAOS/CVLAB/TEST/T2/T2_line5.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.453012, "center_y":0.358642, "width":0.103969, "height":0.103759}, "confidence":0.551129}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022753, "center_y":0.016884, "width":0.059359, "height":0.040687}, "confidence":0.066322}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.425287, "center_y":0.333841, "width":0.101160, "height":0.110421}, "confidence":0.021785}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.011688, "center_y":0.010397, "width":0.035993, "height":0.017233}, "confidence":0.020220}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.473356, "center_y":0.384390, "width":0.092769, "height":0.102867}, "confidence":0.011555}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.474398, "center_y":0.335796, "width":0.094036, "height":0.110533}, "confidence":0.010722}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975726, "center_y":0.979743, "width":0.050325, "height":0.037821}, "confidence":0.009680}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016641, "center_y":0.038295, "width":0.037019, "height":0.065653}, "confidence":0.006456}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991308, "center_y":0.990811, "width":0.025352, "height":0.025852}, "confidence":0.005006}
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"data/NAOS/CVLAB/TEST/T2/T2_line6.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.138055, "center_y":0.913728, "width":0.099313, "height":0.089313}, "confidence":0.498696}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.356449, "center_y":0.421199, "width":0.064307, "height":0.121533}, "confidence":0.339649}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016177, "center_y":0.954762, "width":0.034442, "height":0.075202}, "confidence":0.061571}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.389367, "center_y":0.328523, "width":0.094014, "height":0.098906}, "confidence":0.043789}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.382965, "center_y":0.393847, "width":0.077678, "height":0.110700}, "confidence":0.043056}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.015868, "center_y":0.231618, "width":0.032649, "height":0.071829}, "confidence":0.037842}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.294434, "center_y":0.515163, "width":0.092251, "height":0.102751}, "confidence":0.034622}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.419280, "center_y":0.391739, "width":0.081799, "height":0.099822}, "confidence":0.027650}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.014238, "center_y":0.924445, "width":0.031609, "height":0.082225}, "confidence":0.026295}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.333858, "center_y":0.394559, "width":0.080454, "height":0.115308}, "confidence":0.026174}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.359510, "center_y":0.363524, "width":0.083132, "height":0.105487}, "confidence":0.023871}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006182, "center_y":0.991370, "width":0.024220, "height":0.031366}, "confidence":0.022820}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.359529, "center_y":0.481307, "width":0.075202, "height":0.123256}, "confidence":0.022334}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.293701, "center_y":0.360724, "width":0.090583, "height":0.105794}, "confidence":0.021933}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.040723, "center_y":0.979230, "width":0.062581, "height":0.038875}, "confidence":0.020429}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.004278, "center_y":0.958971, "width":0.012001, "height":0.077472}, "confidence":0.017425}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.327707, "center_y":0.514809, "width":0.088179, "height":0.109704}, "confidence":0.016517}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.295099, "center_y":0.454025, "width":0.083193, "height":0.110143}, "confidence":0.016175}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.333855, "center_y":0.449049, "width":0.076986, "height":0.127550}, "confidence":0.016141}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.390131, "center_y":0.515752, "width":0.090825, "height":0.104421}, "confidence":0.015330}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.418506, "center_y":0.452559, "width":0.077982, "height":0.098294}, "confidence":0.012876}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.266001, "center_y":0.484164, "width":0.095409, "height":0.103656}, "confidence":0.011259}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.011845, "center_y":0.894008, "width":0.027848, "height":0.083939}, "confidence":0.010417}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.003307, "center_y":0.925524, "width":0.010651, "height":0.085045}, "confidence":0.009460}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.982156, "center_y":0.021517, "width":0.040052, "height":0.044989}, "confidence":0.009274}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.451173, "center_y":0.390581, "width":0.089740, "height":0.094155}, "confidence":0.009131}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.042798, "center_y":0.995590, "width":0.048757, "height":0.015936}, "confidence":0.009106}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.327743, "center_y":0.330596, "width":0.097502, "height":0.101368}, "confidence":0.009041}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.265340, "center_y":0.389736, "width":0.090449, "height":0.103037}, "confidence":0.008977}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006564, "center_y":0.235023, "width":0.015627, "height":0.060989}, "confidence":0.008533}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.983664, "center_y":0.039398, "width":0.027554, "height":0.080183}, "confidence":0.007664}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.380511, "center_y":0.451490, "width":0.075646, "height":0.119365}, "confidence":0.007532}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.346421, "center_y":0.453950, "width":0.151511, "height":0.174362}, "confidence":0.006177}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.264063, "center_y":0.327896, "width":0.099285, "height":0.103059}, "confidence":0.006007}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.074402, "center_y":0.984672, "width":0.067910, "height":0.034545}, "confidence":0.005994}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.162375, "center_y":0.947134, "width":0.088366, "height":0.090905}, "confidence":0.005816}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.140643, "center_y":0.868702, "width":0.093847, "height":0.117341}, "confidence":0.005755}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.002686, "center_y":0.892976, "width":0.010081, "height":0.085975}, "confidence":0.005260}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991468, "center_y":0.010070, "width":0.022767, "height":0.022514}, "confidence":0.005175}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.361915, "center_y":0.298720, "width":0.096279, "height":0.102591}, "confidence":0.005074}
+ ] 
+}, 
+{
+ "frame_id":11, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line10.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.411818, "center_y":0.672339, "width":0.082214, "height":0.106678}, "confidence":0.131986}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.392881, "center_y":0.696101, "width":0.081015, "height":0.105504}, "confidence":0.030500}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.398555, "center_y":0.662257, "width":0.135063, "height":0.180314}, "confidence":0.018197}
+ ] 
+}, 
+{
+ "frame_id":12, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line11.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.479447, "center_y":0.600719, "width":0.160509, "height":0.131012}, "confidence":0.037035}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.578218, "center_y":0.703050, "width":0.092458, "height":0.104807}, "confidence":0.034109}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.510516, "center_y":0.637826, "width":0.089135, "height":0.106623}, "confidence":0.033351}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.527460, "center_y":0.644262, "width":0.160841, "height":0.150366}, "confidence":0.028498}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.485658, "center_y":0.668385, "width":0.094320, "height":0.109018}, "confidence":0.027186}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.543091, "center_y":0.669528, "width":0.093671, "height":0.105380}, "confidence":0.019497}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.515170, "center_y":0.700435, "width":0.090382, "height":0.100523}, "confidence":0.016568}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.449521, "center_y":0.517117, "width":0.099455, "height":0.100623}, "confidence":0.013392}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.453163, "center_y":0.702673, "width":0.100230, "height":0.102797}, "confidence":0.009599}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.528828, "center_y":0.705794, "width":0.147864, "height":0.155406}, "confidence":0.008335}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.574770, "center_y":0.640418, "width":0.100176, "height":0.102356}, "confidence":0.006245}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.541769, "center_y":0.611020, "width":0.094205, "height":0.107920}, "confidence":0.006028}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.468799, "center_y":0.537763, "width":0.159502, "height":0.117676}, "confidence":0.005802}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.420043, "center_y":0.767504, "width":0.101014, "height":0.105374}, "confidence":0.005766}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.548228, "center_y":0.731891, "width":0.098079, "height":0.104294}, "confidence":0.005614}
+ ] 
+}, 
+{
+ "frame_id":13, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line12.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.447666, "center_y":0.610122, "width":0.097161, "height":0.087253}, "confidence":0.060333}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.424632, "center_y":0.635795, "width":0.089137, "height":0.091731}, "confidence":0.022238}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.467434, "center_y":0.647479, "width":0.147018, "height":0.156796}, "confidence":0.021023}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.451996, "center_y":0.544623, "width":0.095338, "height":0.096606}, "confidence":0.013317}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.411777, "center_y":0.592586, "width":0.151027, "height":0.146601}, "confidence":0.012452}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.426602, "center_y":0.582890, "width":0.096921, "height":0.094652}, "confidence":0.011685}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.462142, "center_y":0.528788, "width":0.152572, "height":0.143924}, "confidence":0.010101}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.454389, "center_y":0.486487, "width":0.096007, "height":0.108179}, "confidence":0.007330}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.015602, "center_y":0.042256, "width":0.027676, "height":0.080845}, "confidence":0.005969}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.480062, "center_y":0.580125, "width":0.105927, "height":0.098197}, "confidence":0.005584}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018178, "center_y":0.109616, "width":0.042007, "height":0.139942}, "confidence":0.005582}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.466617, "center_y":0.468543, "width":0.159942, "height":0.163418}, "confidence":0.005094}
+ ] 
+}, 
+{
+ "frame_id":14, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line13.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.355988, "center_y":0.575815, "width":0.086625, "height":0.090223}, "confidence":0.111802}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.329817, "center_y":0.516130, "width":0.081321, "height":0.100684}, "confidence":0.063365}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.389174, "center_y":0.607106, "width":0.097243, "height":0.097823}, "confidence":0.039539}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.331823, "center_y":0.604608, "width":0.085982, "height":0.095003}, "confidence":0.030181}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.385095, "center_y":0.548208, "width":0.096574, "height":0.090890}, "confidence":0.028295}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.359679, "center_y":0.637915, "width":0.090647, "height":0.103413}, "confidence":0.017224}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.355691, "center_y":0.551318, "width":0.068355, "height":0.068443}, "confidence":0.013923}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.299981, "center_y":0.544817, "width":0.089564, "height":0.099602}, "confidence":0.013144}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.355756, "center_y":0.487501, "width":0.092011, "height":0.107141}, "confidence":0.011054}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.343834, "center_y":0.525700, "width":0.121648, "height":0.152812}, "confidence":0.010526}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016499, "center_y":0.953780, "width":0.035502, "height":0.070055}, "confidence":0.005197}
+ ] 
+}, 
+{
+ "frame_id":15, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line14.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.422206, "center_y":0.664697, "width":0.055411, "height":0.051802}, "confidence":0.021469}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.445672, "center_y":0.666385, "width":0.057429, "height":0.054218}, "confidence":0.010969}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.394045, "center_y":0.700127, "width":0.078572, "height":0.090724}, "confidence":0.009844}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020201, "center_y":0.018339, "width":0.046508, "height":0.038104}, "confidence":0.008770}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016101, "center_y":0.102720, "width":0.033921, "height":0.063184}, "confidence":0.007745}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.420905, "center_y":0.667032, "width":0.078801, "height":0.082991}, "confidence":0.007440}
+ ] 
+}, 
+{
+ "frame_id":16, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line15.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.017544, "center_y":0.957895, "width":0.037849, "height":0.066452}, "confidence":0.033662}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.009395, "center_y":0.989837, "width":0.024267, "height":0.025069}, "confidence":0.012205}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006818, "center_y":0.958034, "width":0.015118, "height":0.059392}, "confidence":0.007275}
+ ] 
+}, 
+{
+ "frame_id":17, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line16.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.575881, "center_y":0.168205, "width":0.075625, "height":0.096946}, "confidence":0.223142}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.961747, "center_y":0.978709, "width":0.069217, "height":0.043443}, "confidence":0.059396}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.599633, "center_y":0.146691, "width":0.078427, "height":0.095109}, "confidence":0.015773}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.988859, "center_y":0.989928, "width":0.027761, "height":0.029519}, "confidence":0.010394}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976368, "center_y":0.963147, "width":0.051928, "height":0.061333}, "confidence":0.010355}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.552667, "center_y":0.198718, "width":0.077984, "height":0.095999}, "confidence":0.008134}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.553515, "center_y":0.144479, "width":0.076446, "height":0.101055}, "confidence":0.005851}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.553718, "center_y":0.167698, "width":0.055217, "height":0.066322}, "confidence":0.005712}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.599871, "center_y":0.168530, "width":0.058115, "height":0.067117}, "confidence":0.005478}
+ ] 
+}, 
+{
+ "frame_id":18, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line17.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.515803, "center_y":0.769391, "width":0.105376, "height":0.104763}, "confidence":0.326946}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.163763, "center_y":0.261570, "width":0.105627, "height":0.087403}, "confidence":0.135781}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.517716, "center_y":0.818389, "width":0.091300, "height":0.098443}, "confidence":0.005570}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.144386, "center_y":0.287595, "width":0.098459, "height":0.091227}, "confidence":0.005319}
+ ] 
+}, 
+{
+ "frame_id":19, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line18.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.816141, "center_y":0.605195, "width":0.071668, "height":0.106095}, "confidence":0.367662}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020063, "center_y":0.975731, "width":0.042290, "height":0.041347}, "confidence":0.026759}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.038626, "center_y":0.979714, "width":0.063083, "height":0.037788}, "confidence":0.012104}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.009304, "center_y":0.991326, "width":0.029224, "height":0.024100}, "confidence":0.010766}
+ ] 
+}, 
+{
+ "frame_id":20, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line6.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.760948, "center_y":0.857977, "width":0.107193, "height":0.094997}, "confidence":0.607234}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.421457, "center_y":0.983726, "width":0.089383, "height":0.032456}, "confidence":0.016963}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.266233, "center_y":0.983942, "width":0.092619, "height":0.030503}, "confidence":0.013071}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.421985, "center_y":0.955157, "width":0.103509, "height":0.078744}, "confidence":0.010916}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.979325, "center_y":0.976310, "width":0.042056, "height":0.048181}, "confidence":0.010689}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.359002, "center_y":0.985042, "width":0.093947, "height":0.030188}, "confidence":0.010545}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.203362, "center_y":0.985144, "width":0.093680, "height":0.029317}, "confidence":0.009994}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.452390, "center_y":0.858700, "width":0.102274, "height":0.084351}, "confidence":0.007999}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991534, "center_y":0.988702, "width":0.018317, "height":0.037723}, "confidence":0.007174}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.421542, "center_y":0.920841, "width":0.098585, "height":0.084641}, "confidence":0.007156}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.267266, "center_y":0.955348, "width":0.101394, "height":0.078305}, "confidence":0.006254}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.482834, "center_y":0.984649, "width":0.091740, "height":0.029072}, "confidence":0.005632}
+ ] 
+}, 
+{
+ "frame_id":21, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.548159, "center_y":0.541105, "width":0.108668, "height":0.094893}, "confidence":0.412125}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019744, "center_y":0.015306, "width":0.048149, "height":0.039465}, "confidence":0.033637}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.042065, "center_y":0.015271, "width":0.093538, "height":0.027351}, "confidence":0.024032}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.010223, "center_y":0.009212, "width":0.033372, "height":0.015753}, "confidence":0.018735}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975606, "center_y":0.979881, "width":0.051056, "height":0.040788}, "confidence":0.012186}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.596813, "center_y":0.968185, "width":0.171185, "height":0.077666}, "confidence":0.012066}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.523540, "center_y":0.521144, "width":0.099784, "height":0.103491}, "confidence":0.008769}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.611075, "center_y":0.983388, "width":0.104656, "height":0.035468}, "confidence":0.007771}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991596, "center_y":0.991494, "width":0.024825, "height":0.027820}, "confidence":0.006442}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.548442, "center_y":0.983880, "width":0.115130, "height":0.032166}, "confidence":0.005676}
+ ] 
+}, 
+{
+ "frame_id":22, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.723163, "center_y":0.737477, "width":0.111939, "height":0.092438}, "confidence":0.382014}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976794, "center_y":0.979773, "width":0.049824, "height":0.044406}, "confidence":0.073270}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.990827, "center_y":0.990623, "width":0.022167, "height":0.028246}, "confidence":0.027104}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020172, "center_y":0.016460, "width":0.049240, "height":0.036813}, "confidence":0.018856}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.012036, "center_y":0.009449, "width":0.032564, "height":0.015020}, "confidence":0.006673}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.916846, "center_y":0.953628, "width":0.097578, "height":0.075930}, "confidence":0.005163}
+ ] 
+}, 
+{
+ "frame_id":23, 
+ "filename":"data/NAOS/CVLAB/TEST/T3/T3_line9.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.769302, "center_y":0.081659, "width":0.074155, "height":0.105503}, "confidence":0.332140}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020154, "center_y":0.954204, "width":0.042266, "height":0.066026}, "confidence":0.195639}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.040824, "center_y":0.975850, "width":0.058376, "height":0.046349}, "confidence":0.007726}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.786053, "center_y":0.054147, "width":0.076090, "height":0.107919}, "confidence":0.005466}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.763796, "center_y":0.136565, "width":0.083016, "height":0.102865}, "confidence":0.005296}
+ ] 
+}, 
+{
+ "frame_id":24, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line10.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.040267, "center_y":0.925447, "width":0.053575, "height":0.057599}, "confidence":0.336127}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.035093, "center_y":0.858019, "width":0.069534, "height":0.084449}, "confidence":0.178589}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020183, "center_y":0.949341, "width":0.041141, "height":0.067032}, "confidence":0.040606}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.023613, "center_y":0.836692, "width":0.047765, "height":0.062060}, "confidence":0.016891}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.075508, "center_y":0.917649, "width":0.055248, "height":0.054520}, "confidence":0.016152}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005655, "center_y":0.955335, "width":0.012192, "height":0.059774}, "confidence":0.015890}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.038900, "center_y":0.893462, "width":0.052152, "height":0.063351}, "confidence":0.015063}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006681, "center_y":0.992207, "width":0.023294, "height":0.028393}, "confidence":0.014572}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007733, "center_y":0.925915, "width":0.016918, "height":0.049986}, "confidence":0.013751}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044209, "center_y":0.981841, "width":0.067671, "height":0.038908}, "confidence":0.013038}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.023384, "center_y":0.884946, "width":0.041544, "height":0.068848}, "confidence":0.011677}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018319, "center_y":0.980532, "width":0.045858, "height":0.048570}, "confidence":0.011427}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.041263, "center_y":0.948113, "width":0.066635, "height":0.082805}, "confidence":0.009115}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.079918, "center_y":0.896156, "width":0.056043, "height":0.055605}, "confidence":0.008613}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.076070, "center_y":0.983217, "width":0.075456, "height":0.037013}, "confidence":0.007437}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019390, "center_y":0.018883, "width":0.048751, "height":0.039273}, "confidence":0.005780}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.041208, "center_y":0.924110, "width":0.032469, "height":0.035140}, "confidence":0.005520}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.042272, "center_y":0.994188, "width":0.044992, "height":0.016084}, "confidence":0.005442}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.010479, "center_y":0.860417, "width":0.020452, "height":0.057964}, "confidence":0.005144}
+ ] 
+}, 
+{
+ "frame_id":25, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line11.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.794913, "center_y":0.166524, "width":0.062363, "height":0.046590}, "confidence":0.181158}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.014228, "center_y":0.074509, "width":0.030031, "height":0.085314}, "confidence":0.074617}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.774173, "center_y":0.169664, "width":0.051211, "height":0.051311}, "confidence":0.020186}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005836, "center_y":0.077929, "width":0.014769, "height":0.073938}, "confidence":0.012943}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.819553, "center_y":0.167032, "width":0.069556, "height":0.047377}, "confidence":0.011698}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.764078, "center_y":0.206096, "width":0.044405, "height":0.045923}, "confidence":0.011224}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.790462, "center_y":0.200997, "width":0.053604, "height":0.047824}, "confidence":0.011206}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019779, "center_y":0.051918, "width":0.047745, "height":0.107334}, "confidence":0.008132}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.819594, "center_y":0.147615, "width":0.068613, "height":0.048460}, "confidence":0.006476}
+ ] 
+}, 
+{
+ "frame_id":26, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line12.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.544089, "center_y":0.293040, "width":0.110188, "height":0.072283}, "confidence":0.298356}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.520347, "center_y":0.272308, "width":0.102972, "height":0.081206}, "confidence":0.016793}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.571268, "center_y":0.270895, "width":0.104471, "height":0.083622}, "confidence":0.016779}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.518869, "center_y":0.319357, "width":0.103625, "height":0.079880}, "confidence":0.011322}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019360, "center_y":0.017171, "width":0.044035, "height":0.040123}, "confidence":0.009886}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.984532, "center_y":0.956363, "width":0.027461, "height":0.083397}, "confidence":0.006884}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.009530, "center_y":0.009388, "width":0.031791, "height":0.016907}, "confidence":0.006865}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.487652, "center_y":0.294644, "width":0.091106, "height":0.084528}, "confidence":0.006128}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.043793, "center_y":0.014709, "width":0.088125, "height":0.027765}, "confidence":0.005575}
+ ] 
+}, 
+{
+ "frame_id":27, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line13.png", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":28, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line14.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.348698, "center_y":0.581847, "width":0.081009, "height":0.084228}, "confidence":0.450853}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.021476, "center_y":0.976087, "width":0.045386, "height":0.052811}, "confidence":0.032054}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.009771, "center_y":0.990413, "width":0.026299, "height":0.022580}, "confidence":0.008038}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.335782, "center_y":0.557713, "width":0.075887, "height":0.088576}, "confidence":0.005959}
+ ] 
+}, 
+{
+ "frame_id":29, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line15.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.454622, "center_y":0.355735, "width":0.098747, "height":0.086344}, "confidence":0.434948}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.021689, "center_y":0.023968, "width":0.047579, "height":0.046145}, "confidence":0.193509}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.415186, "center_y":0.418412, "width":0.073980, "height":0.046638}, "confidence":0.168243}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.475688, "center_y":0.333629, "width":0.098961, "height":0.090113}, "confidence":0.082548}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.043321, "center_y":0.982076, "width":0.074259, "height":0.038206}, "confidence":0.063814}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.419869, "center_y":0.397558, "width":0.077699, "height":0.055103}, "confidence":0.035428}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.013217, "center_y":0.013258, "width":0.033458, "height":0.023115}, "confidence":0.030589}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.456388, "center_y":0.385268, "width":0.092528, "height":0.055838}, "confidence":0.022183}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.428533, "center_y":0.332157, "width":0.102146, "height":0.086090}, "confidence":0.019503}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.447409, "center_y":0.416682, "width":0.090415, "height":0.045738}, "confidence":0.011084}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.264828, "center_y":0.978279, "width":0.065160, "height":0.042949}, "confidence":0.010480}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.034758, "center_y":0.037960, "width":0.055982, "height":0.058276}, "confidence":0.008133}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.428024, "center_y":0.356360, "width":0.073912, "height":0.069471}, "confidence":0.007030}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.447565, "center_y":0.389204, "width":0.123460, "height":0.125601}, "confidence":0.006909}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008878, "center_y":0.992521, "width":0.030685, "height":0.022798}, "confidence":0.006173}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.397662, "center_y":0.417864, "width":0.092316, "height":0.071937}, "confidence":0.006142}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.482833, "center_y":0.977935, "width":0.070609, "height":0.038818}, "confidence":0.006003}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007465, "center_y":0.043157, "width":0.016208, "height":0.064710}, "confidence":0.005589}
+ ] 
+}, 
+{
+ "frame_id":30, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line16.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.206224, "center_y":0.166155, "width":0.083496, "height":0.117974}, "confidence":0.413679}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.670133, "center_y":0.543038, "width":0.091607, "height":0.089841}, "confidence":0.097691}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.017431, "center_y":0.959451, "width":0.040577, "height":0.068729}, "confidence":0.027825}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.695592, "center_y":0.519004, "width":0.087003, "height":0.098288}, "confidence":0.024019}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.014779, "center_y":0.610887, "width":0.033066, "height":0.088225}, "confidence":0.021787}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.645342, "center_y":0.519910, "width":0.101067, "height":0.099428}, "confidence":0.013058}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.009212, "center_y":0.990044, "width":0.025440, "height":0.023562}, "confidence":0.007089}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.982524, "center_y":0.017853, "width":0.034955, "height":0.044828}, "confidence":0.006870}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.695885, "center_y":0.544932, "width":0.060120, "height":0.071086}, "confidence":0.006503}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.672236, "center_y":0.488253, "width":0.092494, "height":0.102388}, "confidence":0.005669}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.040219, "center_y":0.981947, "width":0.066691, "height":0.036143}, "confidence":0.005431}
+ ] 
+}, 
+{
+ "frame_id":31, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line17.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044172, "center_y":0.421573, "width":0.091746, "height":0.074574}, "confidence":0.207982}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.047994, "center_y":0.396799, "width":0.077087, "height":0.056546}, "confidence":0.030192}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022830, "center_y":0.423106, "width":0.047672, "height":0.061186}, "confidence":0.025427}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.073363, "center_y":0.393618, "width":0.099462, "height":0.078349}, "confidence":0.022442}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976688, "center_y":0.978081, "width":0.043770, "height":0.040528}, "confidence":0.011454}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019413, "center_y":0.445464, "width":0.039313, "height":0.071864}, "confidence":0.009232}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022497, "center_y":0.018743, "width":0.052891, "height":0.039357}, "confidence":0.008173}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.071467, "center_y":0.417326, "width":0.072759, "height":0.058353}, "confidence":0.007629}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991401, "center_y":0.990054, "width":0.022365, "height":0.028325}, "confidence":0.006204}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.004973, "center_y":0.425370, "width":0.015871, "height":0.058447}, "confidence":0.006112}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.041119, "center_y":0.444547, "width":0.070551, "height":0.058398}, "confidence":0.005186}
+ ] 
+}, 
+{
+ "frame_id":32, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line18.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.724527, "center_y":0.199940, "width":0.094350, "height":0.071039}, "confidence":0.187632}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.708210, "center_y":0.179057, "width":0.086834, "height":0.083094}, "confidence":0.046983}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.138108, "center_y":0.012623, "width":0.097729, "height":0.023812}, "confidence":0.011253}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.674560, "center_y":0.165945, "width":0.057184, "height":0.064430}, "confidence":0.009384}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019019, "center_y":0.016794, "width":0.045851, "height":0.037983}, "confidence":0.008371}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.708024, "center_y":0.224278, "width":0.091367, "height":0.075942}, "confidence":0.008108}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.010237, "center_y":0.009339, "width":0.027522, "height":0.018442}, "confidence":0.006886}
+ ] 
+}, 
+{
+ "frame_id":33, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line19.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.365090, "center_y":0.579673, "width":0.072198, "height":0.094399}, "confidence":0.091860}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.382754, "center_y":0.604651, "width":0.047608, "height":0.076000}, "confidence":0.044111}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016213, "center_y":0.887095, "width":0.031953, "height":0.062400}, "confidence":0.034464}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018504, "center_y":0.975711, "width":0.042849, "height":0.043716}, "confidence":0.023020}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.580273, "center_y":0.019366, "width":0.094592, "height":0.033721}, "confidence":0.022355}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.382728, "center_y":0.552129, "width":0.074375, "height":0.095517}, "confidence":0.021117}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.364185, "center_y":0.550274, "width":0.059151, "height":0.069328}, "confidence":0.017844}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.042404, "center_y":0.979364, "width":0.064407, "height":0.036968}, "confidence":0.016434}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007808, "center_y":0.992172, "width":0.030176, "height":0.022811}, "confidence":0.011094}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005159, "center_y":0.892418, "width":0.015318, "height":0.058567}, "confidence":0.007385}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.362578, "center_y":0.633860, "width":0.069764, "height":0.100369}, "confidence":0.007226}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.577461, "center_y":0.038646, "width":0.099935, "height":0.073996}, "confidence":0.006428}
+ ] 
+}, 
+{
+ "frame_id":34, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.980823, "center_y":0.167292, "width":0.042963, "height":0.072149}, "confidence":0.127201}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.948050, "center_y":0.208666, "width":0.063767, "height":0.063578}, "confidence":0.112643}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.959371, "center_y":0.174138, "width":0.072177, "height":0.095893}, "confidence":0.053162}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.961832, "center_y":0.139381, "width":0.071449, "height":0.095173}, "confidence":0.038597}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.994079, "center_y":0.143263, "width":0.011629, "height":0.079032}, "confidence":0.027046}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.994105, "center_y":0.171114, "width":0.012824, "height":0.060919}, "confidence":0.025927}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975818, "center_y":0.110740, "width":0.039798, "height":0.073505}, "confidence":0.020885}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.978865, "center_y":0.200462, "width":0.041198, "height":0.068186}, "confidence":0.011693}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.993004, "center_y":0.110433, "width":0.010391, "height":0.080409}, "confidence":0.011279}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.959002, "center_y":0.111545, "width":0.056001, "height":0.060661}, "confidence":0.009927}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.994584, "center_y":0.203712, "width":0.008305, "height":0.072537}, "confidence":0.006569}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.994060, "center_y":0.235001, "width":0.009280, "height":0.055454}, "confidence":0.006381}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.952993, "center_y":0.013818, "width":0.084966, "height":0.025244}, "confidence":0.005903}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976168, "center_y":0.232235, "width":0.044663, "height":0.064242}, "confidence":0.005757}
+ ] 
+}, 
+{
+ "frame_id":35, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975318, "center_y":0.976813, "width":0.053918, "height":0.049110}, "confidence":0.064089}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.960404, "center_y":0.960794, "width":0.072122, "height":0.088215}, "confidence":0.009769}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.988429, "center_y":0.988430, "width":0.026830, "height":0.023477}, "confidence":0.008134}
+ ] 
+}, 
+{
+ "frame_id":36, 
+ "filename":"data/NAOS/CVLAB/TEST/T4/T4_line9.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.762783, "center_y":0.609256, "width":0.094625, "height":0.109587}, "confidence":0.143023}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018624, "center_y":0.048023, "width":0.041993, "height":0.067651}, "confidence":0.072345}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.734984, "center_y":0.737135, "width":0.090796, "height":0.099895}, "confidence":0.066673}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.733742, "center_y":0.669723, "width":0.087701, "height":0.083423}, "confidence":0.058876}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.759790, "center_y":0.763932, "width":0.086026, "height":0.093418}, "confidence":0.055768}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.709677, "center_y":0.647672, "width":0.087365, "height":0.096159}, "confidence":0.010158}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.739457, "center_y":0.578329, "width":0.081023, "height":0.113242}, "confidence":0.009842}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022105, "center_y":0.073437, "width":0.052243, "height":0.098100}, "confidence":0.009637}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.739340, "center_y":0.651980, "width":0.134333, "height":0.161599}, "confidence":0.009443}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.759134, "center_y":0.700387, "width":0.104179, "height":0.093519}, "confidence":0.007978}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007947, "center_y":0.047905, "width":0.016971, "height":0.057468}, "confidence":0.007963}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.757022, "center_y":0.739597, "width":0.067769, "height":0.064235}, "confidence":0.006153}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019037, "center_y":0.022128, "width":0.047377, "height":0.044959}, "confidence":0.005416}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006291, "center_y":0.076748, "width":0.014967, "height":0.065122}, "confidence":0.005356}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.012977, "center_y":0.142783, "width":0.028826, "height":0.076001}, "confidence":0.005305}
+ ] 
+}, 
+{
+ "frame_id":37, 
+ "filename":"data/NAOS/CVLAB/TEST/T5/T5_line3.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.233645, "center_y":0.612170, "width":0.056703, "height":0.071700}, "confidence":0.168603}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.523286, "center_y":0.602063, "width":0.051281, "height":0.070438}, "confidence":0.060590}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.538130, "center_y":0.585783, "width":0.051347, "height":0.065534}, "confidence":0.027800}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.257729, "center_y":0.613027, "width":0.062079, "height":0.066583}, "confidence":0.024148}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.211372, "center_y":0.610226, "width":0.059069, "height":0.065559}, "confidence":0.024135}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.233473, "center_y":0.586348, "width":0.074588, "height":0.086379}, "confidence":0.020366}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018990, "center_y":0.976086, "width":0.038196, "height":0.042804}, "confidence":0.010906}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.518394, "center_y":0.633104, "width":0.067916, "height":0.097496}, "confidence":0.009288}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.545211, "center_y":0.111157, "width":0.083784, "height":0.091691}, "confidence":0.009044}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.548497, "center_y":0.131949, "width":0.060551, "height":0.056404}, "confidence":0.007586}
+ ] 
+}, 
+{
+ "frame_id":38, 
+ "filename":"data/NAOS/CVLAB/TEST/T5/T5_line4.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.477256, "center_y":0.600671, "width":0.049937, "height":0.064667}, "confidence":0.288447}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.445993, "center_y":0.542013, "width":0.055949, "height":0.071771}, "confidence":0.216951}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.820820, "center_y":0.766699, "width":0.045094, "height":0.065100}, "confidence":0.123974}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.431095, "center_y":0.520658, "width":0.074552, "height":0.089432}, "confidence":0.101167}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.458084, "center_y":0.582531, "width":0.053392, "height":0.071517}, "confidence":0.051548}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.822823, "center_y":0.744193, "width":0.045346, "height":0.060070}, "confidence":0.013023}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.446878, "center_y":0.491127, "width":0.077992, "height":0.092878}, "confidence":0.012479}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.476335, "center_y":0.552967, "width":0.051549, "height":0.071300}, "confidence":0.010640}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.425687, "center_y":0.570756, "width":0.053072, "height":0.071115}, "confidence":0.009647}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.804455, "center_y":0.766211, "width":0.063058, "height":0.093999}, "confidence":0.009506}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.803267, "center_y":0.741829, "width":0.045907, "height":0.064383}, "confidence":0.009503}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.804579, "center_y":0.787499, "width":0.043746, "height":0.074575}, "confidence":0.009341}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.506797, "center_y":0.606651, "width":0.051932, "height":0.058100}, "confidence":0.006987}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.480026, "center_y":0.636911, "width":0.052412, "height":0.053634}, "confidence":0.006743}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.454819, "center_y":0.634493, "width":0.053935, "height":0.052420}, "confidence":0.005946}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.423594, "center_y":0.605745, "width":0.053391, "height":0.058698}, "confidence":0.005428}
+ ] 
+}, 
+{
+ "frame_id":39, 
+ "filename":"data/NAOS/CVLAB/TEST/T5/T5_line5.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.205146, "center_y":0.386077, "width":0.059116, "height":0.050026}, "confidence":0.192165}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.179574, "center_y":0.388208, "width":0.054419, "height":0.054847}, "confidence":0.017027}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.227379, "center_y":0.369831, "width":0.058101, "height":0.055935}, "confidence":0.016832}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.204622, "center_y":0.411568, "width":0.056851, "height":0.055948}, "confidence":0.014181}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.225480, "center_y":0.388455, "width":0.075487, "height":0.076131}, "confidence":0.005387}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.177717, "center_y":0.366495, "width":0.054576, "height":0.060170}, "confidence":0.005161}
+ ] 
+}, 
+{
+ "frame_id":40, 
+ "filename":"data/NAOS/CVLAB/TEST/T5/T5_line6.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.666730, "center_y":0.551186, "width":0.088319, "height":0.099414}, "confidence":0.160938}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.645461, "center_y":0.573090, "width":0.085846, "height":0.102016}, "confidence":0.047688}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.643187, "center_y":0.520042, "width":0.090782, "height":0.110064}, "confidence":0.015652}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.694600, "center_y":0.575606, "width":0.077172, "height":0.103655}, "confidence":0.013884}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.669522, "center_y":0.601876, "width":0.073336, "height":0.102577}, "confidence":0.007877}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.612746, "center_y":0.546071, "width":0.081984, "height":0.100545}, "confidence":0.005769}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044763, "center_y":0.980801, "width":0.063457, "height":0.037208}, "confidence":0.005075}
+ ] 
+}, 
+{
+ "frame_id":41, 
+ "filename":"data/NAOS/CVLAB/TEST/T5/T5_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044911, "center_y":0.979646, "width":0.067650, "height":0.035636}, "confidence":0.269532}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.073906, "center_y":0.204363, "width":0.062329, "height":0.056067}, "confidence":0.066441}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.023155, "center_y":0.979652, "width":0.048917, "height":0.040272}, "confidence":0.055738}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007580, "center_y":0.992745, "width":0.035385, "height":0.021513}, "confidence":0.022038}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.054451, "center_y":0.203966, "width":0.083329, "height":0.084397}, "confidence":0.021745}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.146194, "center_y":0.982034, "width":0.069186, "height":0.035047}, "confidence":0.015443}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044569, "center_y":0.994720, "width":0.068821, "height":0.013576}, "confidence":0.013521}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.070014, "center_y":0.983301, "width":0.072966, "height":0.033493}, "confidence":0.010670}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.071411, "center_y":0.226325, "width":0.080249, "height":0.086460}, "confidence":0.009122}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020364, "center_y":0.958167, "width":0.043154, "height":0.057398}, "confidence":0.009057}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.074749, "center_y":0.180843, "width":0.059833, "height":0.058643}, "confidence":0.007436}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.004053, "center_y":0.203877, "width":0.012336, "height":0.063057}, "confidence":0.006270}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.004170, "center_y":0.235612, "width":0.010776, "height":0.073588}, "confidence":0.005790}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016763, "center_y":0.203274, "width":0.033599, "height":0.069477}, "confidence":0.005529}
+ ] 
+}, 
+{
+ "frame_id":42, 
+ "filename":"data/NAOS/CVLAB/TEST/T5/T5_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.108266, "center_y":0.383173, "width":0.054311, "height":0.062730}, "confidence":0.134671}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020766, "center_y":0.978432, "width":0.046562, "height":0.042838}, "confidence":0.084035}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.133637, "center_y":0.367118, "width":0.056586, "height":0.062092}, "confidence":0.026685}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.010717, "center_y":0.992048, "width":0.032232, "height":0.019587}, "confidence":0.018948}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.105867, "center_y":0.416479, "width":0.070056, "height":0.105230}, "confidence":0.016271}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.086213, "center_y":0.364610, "width":0.060839, "height":0.059570}, "confidence":0.010562}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.085748, "center_y":0.385543, "width":0.075671, "height":0.083693}, "confidence":0.007979}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.978744, "center_y":0.018665, "width":0.047365, "height":0.037886}, "confidence":0.006852}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.733276, "center_y":0.980856, "width":0.091910, "height":0.034276}, "confidence":0.006048}
+ ] 
+}, 
+{
+ "frame_id":43, 
+ "filename":"data/NAOS/CVLAB/TEST/T6/T6_line3.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.397685, "center_y":0.491423, "width":0.082867, "height":0.088279}, "confidence":0.222859}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.640308, "center_y":0.981908, "width":0.068647, "height":0.035464}, "confidence":0.121691}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022267, "center_y":0.977558, "width":0.046814, "height":0.037528}, "confidence":0.014676}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.413987, "center_y":0.508345, "width":0.061036, "height":0.071049}, "confidence":0.011920}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.640698, "center_y":0.994955, "width":0.063463, "height":0.011855}, "confidence":0.011235}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.416729, "center_y":0.462193, "width":0.088712, "height":0.088743}, "confidence":0.007192}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.641780, "center_y":0.964500, "width":0.063962, "height":0.055927}, "confidence":0.005963}
+ ] 
+}, 
+{
+ "frame_id":44, 
+ "filename":"data/NAOS/CVLAB/TEST/T6/T6_line4.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.441882, "center_y":0.360968, "width":0.078998, "height":0.098760}, "confidence":0.362243}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.956856, "center_y":0.640412, "width":0.073066, "height":0.088740}, "confidence":0.292243}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.017086, "center_y":0.978210, "width":0.041497, "height":0.043209}, "confidence":0.028514}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976583, "center_y":0.668080, "width":0.040392, "height":0.072365}, "confidence":0.015216}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.975947, "center_y":0.016647, "width":0.055159, "height":0.034780}, "confidence":0.010542}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.930153, "center_y":0.641064, "width":0.071737, "height":0.093151}, "confidence":0.009800}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008555, "center_y":0.991850, "width":0.028323, "height":0.019955}, "confidence":0.009421}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.429035, "center_y":0.380856, "width":0.055597, "height":0.075241}, "confidence":0.008361}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976671, "center_y":0.615528, "width":0.045724, "height":0.071960}, "confidence":0.008325}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.993584, "center_y":0.673980, "width":0.010010, "height":0.070876}, "confidence":0.007041}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991894, "center_y":0.641315, "width":0.012879, "height":0.063194}, "confidence":0.005122}
+ ] 
+}, 
+{
+ "frame_id":45, 
+ "filename":"data/NAOS/CVLAB/TEST/T6/T6_line5.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.352136, "center_y":0.236301, "width":0.073116, "height":0.097959}, "confidence":0.289606}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.334203, "center_y":0.262076, "width":0.071040, "height":0.103659}, "confidence":0.069096}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.272922, "center_y":0.921958, "width":0.055169, "height":0.059418}, "confidence":0.036041}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018384, "center_y":0.977549, "width":0.043355, "height":0.041774}, "confidence":0.025373}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.350703, "center_y":0.292108, "width":0.071921, "height":0.103204}, "confidence":0.019559}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.353352, "center_y":0.261850, "width":0.051491, "height":0.085158}, "confidence":0.014729}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976591, "center_y":0.022540, "width":0.055545, "height":0.041241}, "confidence":0.010339}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.329076, "center_y":0.323746, "width":0.076181, "height":0.100060}, "confidence":0.009698}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008364, "center_y":0.991682, "width":0.030163, "height":0.017607}, "confidence":0.008453}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.334205, "center_y":0.291471, "width":0.052277, "height":0.068998}, "confidence":0.006071}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.382072, "center_y":0.236572, "width":0.076785, "height":0.094947}, "confidence":0.006060}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.270636, "center_y":0.946286, "width":0.051769, "height":0.066404}, "confidence":0.006051}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.340994, "center_y":0.264159, "width":0.142448, "height":0.150610}, "confidence":0.005978}
+ ] 
+}, 
+{
+ "frame_id":46, 
+ "filename":"data/NAOS/CVLAB/TEST/T6/T6_line6.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044510, "center_y":0.980617, "width":0.077108, "height":0.038478}, "confidence":0.009617}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008810, "center_y":0.992583, "width":0.029615, "height":0.021553}, "confidence":0.005843}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.978249, "center_y":0.017560, "width":0.050898, "height":0.037882}, "confidence":0.005688}
+ ] 
+}, 
+{
+ "frame_id":47, 
+ "filename":"data/NAOS/CVLAB/TEST/T6/T6_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.041856, "center_y":0.978212, "width":0.067431, "height":0.040602}, "confidence":0.112616}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.041316, "center_y":0.962275, "width":0.076767, "height":0.053336}, "confidence":0.027887}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.732917, "center_y":0.985687, "width":0.078511, "height":0.030212}, "confidence":0.022446}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008768, "center_y":0.991705, "width":0.027665, "height":0.024802}, "confidence":0.014478}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.079576, "center_y":0.979410, "width":0.072702, "height":0.041197}, "confidence":0.012008}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.976707, "center_y":0.018211, "width":0.051950, "height":0.039232}, "confidence":0.009167}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.043575, "center_y":0.993612, "width":0.068170, "height":0.013500}, "confidence":0.007251}
+ ] 
+}, 
+{
+ "frame_id":48, 
+ "filename":"data/NAOS/CVLAB/TEST/T6/T6_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.510202, "center_y":0.515841, "width":0.098774, "height":0.089738}, "confidence":0.451651}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.489806, "center_y":0.490857, "width":0.092404, "height":0.090787}, "confidence":0.048161}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.040398, "center_y":0.981487, "width":0.077657, "height":0.034579}, "confidence":0.043961}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.488462, "center_y":0.538397, "width":0.097827, "height":0.089170}, "confidence":0.036011}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.537226, "center_y":0.540785, "width":0.092778, "height":0.091559}, "confidence":0.016252}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.010167, "center_y":0.993559, "width":0.039210, "height":0.019774}, "confidence":0.014897}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.515154, "center_y":0.568858, "width":0.099909, "height":0.082327}, "confidence":0.014223}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.979264, "center_y":0.019620, "width":0.042702, "height":0.040540}, "confidence":0.007132}
+ ] 
+}, 
+{
+ "frame_id":49, 
+ "filename":"data/NAOS/CVLAB/TEST/T7/T7_line3.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.013944, "center_y":0.955720, "width":0.034503, "height":0.075036}, "confidence":0.163178}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.392363, "center_y":0.925996, "width":0.106139, "height":0.119369}, "confidence":0.073941}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981893, "center_y":0.039891, "width":0.032249, "height":0.071476}, "confidence":0.046380}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.980751, "center_y":0.022245, "width":0.045171, "height":0.044066}, "confidence":0.024843}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006289, "center_y":0.957938, "width":0.016675, "height":0.063141}, "confidence":0.016774}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991859, "center_y":0.011284, "width":0.022471, "height":0.028055}, "confidence":0.015780}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016274, "center_y":0.925109, "width":0.030847, "height":0.077429}, "confidence":0.012712}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.993309, "center_y":0.044700, "width":0.008790, "height":0.064746}, "confidence":0.006041}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.421470, "center_y":0.979070, "width":0.076357, "height":0.042690}, "confidence":0.005326}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.642824, "center_y":0.452116, "width":0.109193, "height":0.083502}, "confidence":0.005050}
+ ] 
+}, 
+{
+ "frame_id":50, 
+ "filename":"data/NAOS/CVLAB/TEST/T7/T7_line4.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.980489, "center_y":0.020745, "width":0.044329, "height":0.042575}, "confidence":0.040949}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981455, "center_y":0.079466, "width":0.033360, "height":0.073605}, "confidence":0.031520}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.981964, "center_y":0.039166, "width":0.031629, "height":0.069949}, "confidence":0.020691}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.991509, "center_y":0.010596, "width":0.024653, "height":0.022754}, "confidence":0.017001}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.956014, "center_y":0.015485, "width":0.071279, "height":0.028866}, "confidence":0.010745}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.327729, "center_y":0.104422, "width":0.082779, "height":0.085303}, "confidence":0.009179}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.963942, "center_y":0.106337, "width":0.062896, "height":0.101228}, "confidence":0.007944}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022106, "center_y":0.956092, "width":0.039764, "height":0.070144}, "confidence":0.005866}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.993546, "center_y":0.078932, "width":0.010872, "height":0.068821}, "confidence":0.005718}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.921772, "center_y":0.013273, "width":0.071737, "height":0.022887}, "confidence":0.005073}
+ ] 
+}, 
+{
+ "frame_id":51, 
+ "filename":"data/NAOS/CVLAB/TEST/T7/T7_line5.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.796625, "center_y":0.015507, "width":0.087313, "height":0.031691}, "confidence":0.035391}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.045515, "center_y":0.982059, "width":0.077384, "height":0.036689}, "confidence":0.011359}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.021354, "center_y":0.955144, "width":0.044734, "height":0.066938}, "confidence":0.009515}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.021989, "center_y":0.978988, "width":0.049538, "height":0.045753}, "confidence":0.008866}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.920263, "center_y":0.015890, "width":0.085383, "height":0.029751}, "confidence":0.007835}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.798166, "center_y":0.005254, "width":0.080254, "height":0.008977}, "confidence":0.007068}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008389, "center_y":0.991277, "width":0.025735, "height":0.024898}, "confidence":0.006611}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.730928, "center_y":0.046735, "width":0.090087, "height":0.088692}, "confidence":0.006318}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.017884, "center_y":0.924453, "width":0.038313, "height":0.070016}, "confidence":0.006035}
+ ] 
+}, 
+{
+ "frame_id":52, 
+ "filename":"data/NAOS/CVLAB/TEST/T7/T7_line6.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.919573, "center_y":0.768133, "width":0.087474, "height":0.089686}, "confidence":0.395478}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.958672, "center_y":0.043674, "width":0.077864, "height":0.085928}, "confidence":0.094657}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.823990, "center_y":0.165289, "width":0.099423, "height":0.077829}, "confidence":0.061414}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.854767, "center_y":0.141008, "width":0.100710, "height":0.092124}, "confidence":0.040740}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.799347, "center_y":0.145989, "width":0.105532, "height":0.080082}, "confidence":0.030479}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.896677, "center_y":0.739343, "width":0.080287, "height":0.102048}, "confidence":0.017857}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.899028, "center_y":0.787138, "width":0.080113, "height":0.089457}, "confidence":0.010765}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.889099, "center_y":0.137662, "width":0.096828, "height":0.108268}, "confidence":0.010147}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.979294, "center_y":0.040050, "width":0.036417, "height":0.084614}, "confidence":0.009691}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.769550, "center_y":0.165925, "width":0.105655, "height":0.080223}, "confidence":0.009586}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.958699, "center_y":0.019855, "width":0.075067, "height":0.037827}, "confidence":0.009179}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.947006, "center_y":0.738974, "width":0.087860, "height":0.100758}, "confidence":0.007681}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.943756, "center_y":0.788989, "width":0.086676, "height":0.087279}, "confidence":0.006964}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.828404, "center_y":0.115581, "width":0.105706, "height":0.083122}, "confidence":0.005883}
+ ] 
+}, 
+{
+ "frame_id":53, 
+ "filename":"data/NAOS/CVLAB/TEST/T7/T7_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.476499, "center_y":0.170521, "width":0.087878, "height":0.098501}, "confidence":0.350197}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.515164, "center_y":0.294500, "width":0.059767, "height":0.115209}, "confidence":0.065238}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.446916, "center_y":0.327362, "width":0.078762, "height":0.106931}, "confidence":0.037785}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.458741, "center_y":0.194418, "width":0.087693, "height":0.103604}, "confidence":0.030658}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.609089, "center_y":0.328486, "width":0.070440, "height":0.095094}, "confidence":0.026668}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.512312, "center_y":0.236787, "width":0.071966, "height":0.097144}, "confidence":0.024880}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.516075, "center_y":0.263407, "width":0.048436, "height":0.076083}, "confidence":0.022947}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.423975, "center_y":0.300617, "width":0.083853, "height":0.098770}, "confidence":0.021023}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.483642, "center_y":0.231676, "width":0.078106, "height":0.103297}, "confidence":0.019729}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.482457, "center_y":0.012222, "width":0.075876, "height":0.024351}, "confidence":0.012645}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.491876, "center_y":0.265096, "width":0.071119, "height":0.112696}, "confidence":0.011497}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.538861, "center_y":0.266564, "width":0.070506, "height":0.099274}, "confidence":0.007446}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.607903, "center_y":0.357968, "width":0.055326, "height":0.070830}, "confidence":0.006736}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.452887, "center_y":0.011894, "width":0.076411, "height":0.023836}, "confidence":0.006398}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.512413, "center_y":0.011579, "width":0.088181, "height":0.023820}, "confidence":0.006343}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.141796, "center_y":0.083035, "width":0.078551, "height":0.050864}, "confidence":0.006248}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.545939, "center_y":0.011827, "width":0.088522, "height":0.025366}, "confidence":0.005490}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.508270, "center_y":0.201737, "width":0.082917, "height":0.096806}, "confidence":0.005468}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.505613, "center_y":0.146206, "width":0.078830, "height":0.104332}, "confidence":0.005451}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.484296, "center_y":0.004240, "width":0.075174, "height":0.007644}, "confidence":0.005043}
+ ] 
+}, 
+{
+ "frame_id":54, 
+ "filename":"data/NAOS/CVLAB/TEST/T7/T7_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.977573, "center_y":0.019891, "width":0.049189, "height":0.038737}, "confidence":0.012943}
+ ] 
+}, 
+{
+ "frame_id":55, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line3.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.322658, "center_y":0.922502, "width":0.092240, "height":0.115265}, "confidence":0.145278}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.359960, "center_y":0.981507, "width":0.086661, "height":0.037603}, "confidence":0.056474}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.299656, "center_y":0.947748, "width":0.095564, "height":0.108727}, "confidence":0.039827}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.333703, "center_y":0.922333, "width":0.164867, "height":0.160139}, "confidence":0.032999}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.330304, "center_y":0.979867, "width":0.083724, "height":0.041493}, "confidence":0.021922}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.354465, "center_y":0.954964, "width":0.103427, "height":0.088717}, "confidence":0.019395}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.796046, "center_y":0.985561, "width":0.086084, "height":0.031669}, "confidence":0.014256}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.733819, "center_y":0.984762, "width":0.086361, "height":0.031058}, "confidence":0.013225}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.017044, "center_y":0.977037, "width":0.044340, "height":0.049746}, "confidence":0.011657}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.608435, "center_y":0.984091, "width":0.088689, "height":0.031695}, "confidence":0.011142}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.952654, "center_y":0.976567, "width":0.074304, "height":0.038495}, "confidence":0.010862}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.545974, "center_y":0.984568, "width":0.093074, "height":0.030556}, "confidence":0.010697}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.671632, "center_y":0.984835, "width":0.089679, "height":0.030988}, "confidence":0.010202}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.889970, "center_y":0.984533, "width":0.077598, "height":0.034431}, "confidence":0.009658}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.859064, "center_y":0.985914, "width":0.080792, "height":0.032636}, "confidence":0.009452}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.922108, "center_y":0.980263, "width":0.076620, "height":0.036105}, "confidence":0.008786}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.989289, "center_y":0.988364, "width":0.016320, "height":0.035785}, "confidence":0.008164}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.300583, "center_y":0.895055, "width":0.094651, "height":0.109660}, "confidence":0.007700}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.578244, "center_y":0.954982, "width":0.101890, "height":0.081746}, "confidence":0.007675}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.298704, "center_y":0.980172, "width":0.085055, "height":0.039908}, "confidence":0.006448}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007976, "center_y":0.990191, "width":0.025198, "height":0.026823}, "confidence":0.006293}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.950875, "center_y":0.952697, "width":0.085566, "height":0.083490}, "confidence":0.005348}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.578290, "center_y":0.922164, "width":0.100679, "height":0.085502}, "confidence":0.005145}
+ ] 
+}, 
+{
+ "frame_id":56, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line4.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.885328, "center_y":0.578076, "width":0.077607, "height":0.100231}, "confidence":0.291791}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.043927, "center_y":0.321661, "width":0.089271, "height":0.081020}, "confidence":0.198113}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.015928, "center_y":0.228422, "width":0.035239, "height":0.071115}, "confidence":0.164813}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.552250, "center_y":0.047511, "width":0.084943, "height":0.084428}, "confidence":0.051393}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005387, "center_y":0.235065, "width":0.015568, "height":0.059265}, "confidence":0.043423}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.022365, "center_y":0.326240, "width":0.046214, "height":0.069044}, "confidence":0.042100}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.071560, "center_y":0.302911, "width":0.093738, "height":0.078474}, "confidence":0.038621}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.865850, "center_y":0.549801, "width":0.082247, "height":0.102447}, "confidence":0.027985}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.887669, "center_y":0.604429, "width":0.053446, "height":0.074862}, "confidence":0.022509}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.015259, "center_y":0.262618, "width":0.033406, "height":0.077277}, "confidence":0.021686}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020164, "center_y":0.299922, "width":0.039853, "height":0.073182}, "confidence":0.021427}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.198623, "center_y":0.017867, "width":0.072635, "height":0.031559}, "confidence":0.020585}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.571621, "center_y":0.071905, "width":0.078538, "height":0.088184}, "confidence":0.019205}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.548975, "center_y":0.020279, "width":0.078531, "height":0.034059}, "confidence":0.016086}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005486, "center_y":0.208724, "width":0.014324, "height":0.070346}, "confidence":0.015812}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.915175, "center_y":0.548824, "width":0.072932, "height":0.103063}, "confidence":0.015462}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.889616, "center_y":0.518207, "width":0.083634, "height":0.100262}, "confidence":0.014908}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.146783, "center_y":0.892190, "width":0.066178, "height":0.052268}, "confidence":0.014472}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.867783, "center_y":0.602238, "width":0.073822, "height":0.104974}, "confidence":0.012171}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.890548, "center_y":0.551359, "width":0.061922, "height":0.071946}, "confidence":0.011556}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018493, "center_y":0.354738, "width":0.038379, "height":0.071454}, "confidence":0.010687}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.074903, "center_y":0.355892, "width":0.091141, "height":0.086495}, "confidence":0.010288}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005239, "center_y":0.331991, "width":0.014550, "height":0.066795}, "confidence":0.009526}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.003683, "center_y":0.266618, "width":0.012074, "height":0.067486}, "confidence":0.009336}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019750, "center_y":0.957110, "width":0.039259, "height":0.073143}, "confidence":0.009204}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.012768, "center_y":0.138638, "width":0.026604, "height":0.080213}, "confidence":0.008500}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.552473, "center_y":0.071652, "width":0.056432, "height":0.068970}, "confidence":0.008432}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.021353, "center_y":0.205079, "width":0.049037, "height":0.104471}, "confidence":0.008229}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.014391, "center_y":0.171973, "width":0.029397, "height":0.083284}, "confidence":0.007733}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.003914, "center_y":0.301105, "width":0.012451, "height":0.071560}, "confidence":0.007385}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.520119, "center_y":0.074843, "width":0.078475, "height":0.089951}, "confidence":0.006977}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.016794, "center_y":0.733001, "width":0.035040, "height":0.067860}, "confidence":0.006570}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.546230, "center_y":0.104962, "width":0.080953, "height":0.093511}, "confidence":0.006455}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.021475, "center_y":0.673065, "width":0.043663, "height":0.076325}, "confidence":0.005734}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.038145, "center_y":0.672893, "width":0.086628, "height":0.095327}, "confidence":0.005506}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.920186, "center_y":0.515238, "width":0.077432, "height":0.095068}, "confidence":0.005424}
+ ] 
+}, 
+{
+ "frame_id":57, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line5.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.013733, "center_y":0.420517, "width":0.030955, "height":0.082658}, "confidence":0.103767}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.020267, "center_y":0.978767, "width":0.043906, "height":0.046009}, "confidence":0.061281}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.008539, "center_y":0.991432, "width":0.027211, "height":0.022846}, "confidence":0.030076}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.041486, "center_y":0.983903, "width":0.069031, "height":0.036468}, "confidence":0.019145}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019172, "center_y":0.960315, "width":0.037747, "height":0.063260}, "confidence":0.016525}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.004801, "center_y":0.424330, "width":0.014970, "height":0.069931}, "confidence":0.014558}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.005383, "center_y":0.957529, "width":0.012645, "height":0.055158}, "confidence":0.009004}
+ ] 
+}, 
+{
+ "frame_id":58, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line6.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.637544, "center_y":0.355153, "width":0.083569, "height":0.093259}, "confidence":0.159991}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.666512, "center_y":0.419870, "width":0.089313, "height":0.079905}, "confidence":0.127629}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.642028, "center_y":0.390247, "width":0.089325, "height":0.092824}, "confidence":0.086291}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.614309, "center_y":0.330435, "width":0.088823, "height":0.095792}, "confidence":0.050346}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639107, "center_y":0.331253, "width":0.066356, "height":0.065155}, "confidence":0.033627}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.644704, "center_y":0.447183, "width":0.085154, "height":0.084239}, "confidence":0.024119}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.662652, "center_y":0.331090, "width":0.085654, "height":0.090295}, "confidence":0.024106}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.668642, "center_y":0.398546, "width":0.071018, "height":0.060305}, "confidence":0.018648}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.640331, "center_y":0.303933, "width":0.079697, "height":0.102108}, "confidence":0.012899}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.695402, "center_y":0.394170, "width":0.090043, "height":0.093604}, "confidence":0.010521}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.669051, "center_y":0.445886, "width":0.066552, "height":0.067684}, "confidence":0.009084}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.696176, "center_y":0.421413, "width":0.071003, "height":0.064186}, "confidence":0.009049}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.612101, "center_y":0.419330, "width":0.089114, "height":0.087775}, "confidence":0.008076}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.613944, "center_y":0.357173, "width":0.067529, "height":0.069900}, "confidence":0.005989}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.666750, "center_y":0.357668, "width":0.067563, "height":0.068479}, "confidence":0.005978}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.697499, "center_y":0.448093, "width":0.087794, "height":0.090270}, "confidence":0.005604}
+ ] 
+}, 
+{
+ "frame_id":59, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line7.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.505783, "center_y":0.490181, "width":0.086214, "height":0.090227}, "confidence":0.219541}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.488049, "center_y":0.459434, "width":0.081398, "height":0.095447}, "confidence":0.015618}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.487379, "center_y":0.537351, "width":0.073170, "height":0.101415}, "confidence":0.009141}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.978002, "center_y":0.021089, "width":0.044913, "height":0.042566}, "confidence":0.006690}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.459456, "center_y":0.487168, "width":0.081559, "height":0.097630}, "confidence":0.005147}
+ ] 
+}, 
+{
+ "frame_id":60, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line8.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.018850, "center_y":0.961893, "width":0.043425, "height":0.066663}, "confidence":0.122031}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.007991, "center_y":0.988659, "width":0.027913, "height":0.027321}, "confidence":0.024564}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.040155, "center_y":0.978905, "width":0.067385, "height":0.040429}, "confidence":0.022139}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.006451, "center_y":0.960096, "width":0.016365, "height":0.061394}, "confidence":0.012560}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639703, "center_y":0.983658, "width":0.080589, "height":0.032452}, "confidence":0.006515}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.644629, "center_y":0.857553, "width":0.092271, "height":0.107541}, "confidence":0.006151}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.036907, "center_y":0.961469, "width":0.070391, "height":0.083612}, "confidence":0.005899}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.042665, "center_y":0.993371, "width":0.047047, "height":0.017560}, "confidence":0.005278}
+ ] 
+}, 
+{
+ "frame_id":61, 
+ "filename":"data/NAOS/CVLAB/TEST/T8/T8_line9.png", 
+ "objects": [ 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639269, "center_y":0.177658, "width":0.086780, "height":0.082103}, "confidence":0.068587}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.639994, "center_y":0.197617, "width":0.064809, "height":0.061321}, "confidence":0.034098}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.614754, "center_y":0.197887, "width":0.090432, "height":0.082364}, "confidence":0.014339}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.266066, "center_y":0.295452, "width":0.094918, "height":0.089568}, "confidence":0.010948}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.147370, "center_y":0.041266, "width":0.171787, "height":0.094825}, "confidence":0.010123}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.235893, "center_y":0.327470, "width":0.101136, "height":0.087191}, "confidence":0.007982}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.019302, "center_y":0.014897, "width":0.051032, "height":0.037163}, "confidence":0.006934}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.044210, "center_y":0.015054, "width":0.094237, "height":0.029576}, "confidence":0.005318}
+ ] 
+}
+]
