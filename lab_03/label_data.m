@@ -1,8 +1,9 @@
 % --------------- Example How to Load and Work with our thermal data ------
+addpath 'util'
 clear all; clc; close all; % clean up!
 
 %%
-trainingsites = { 'F0', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F8', 'F9', 'F10', 'F11' };
+trainingsites = { 'F0', 'F1', 'F2', 'F3', 'F5', 'F6', 'F8', 'F9', 'F10', 'F11' }; % Note, we use the same IDs as in the Nature Machine Intelligence Paper.
 testsites = { 'T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8'};
 allsites = cat(2, trainingsites, testsites );
 
@@ -11,7 +12,7 @@ allsites = cat(2, trainingsites, testsites );
 for i_site = 1 %:length(trainingsites)
 %%
 %linenumber = '4';
-site = 'F6';
+site = 'T6';
 datapath = fullfile( './data/', site ); 
 
 thermalParams = load( './data/camParams_thermal.mat' );
