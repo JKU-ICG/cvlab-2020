@@ -1,4 +1,7 @@
 function [BBs, yoloBBs, usedBBs] = saveLabels( projs, imgsize, labelfile )
+    % saveLabels computes absolute and relative axis-aligned boundig boxes
+    % of the points in projs. If labelfile is specified creates a text file
+    % that is compatible with darknet/YOLO.
 
     OBJCLASS = '0';
     NEWLINE = char(10);

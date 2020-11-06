@@ -1,5 +1,5 @@
 function [filenames, matDetections, matGT, matIoUs, matIoUGTids] = parseResults( results, imgsize )
-
+% parses results structure so that we can computer AP, FP, and TP scores.
 
 if nargin < 2
     imgsize = [512, 640];

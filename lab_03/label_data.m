@@ -9,10 +9,10 @@ allsites = cat(2, trainingsites, testsites );
 
 
 
-for i_site = 1 %:length(trainingsites)
+for i_site = 1:length(allsites)
 %%
 %linenumber = '4';
-site = 'T6';
+site = allsites{i_site}
 datapath = fullfile( './data/', site ); 
 
 thermalParams = load( './data/camParams_thermal.mat' );

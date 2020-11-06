@@ -1,4 +1,6 @@
 % --------------- Example How to Load and Work with our thermal data ------
+% this script computes integrals for every line and writes it into results.
+% Additionally labels as AABBs are stored in text files. 
 addpath 'util'
 clear all; clc; close all; % clean up!
 
@@ -10,8 +12,7 @@ allsites = cat(2, trainingsites, testsites );
 
 
 for i_site = 1:length(allsites)
-%%
-%linenumber = '4';
+
 site = allsites{i_site};
 datapath = fullfile( './data/', site ); 
 if ~isfolder(fullfile( datapath ))
@@ -25,7 +26,7 @@ thermalParams = load( './data/camParams_thermal.mat' );
 %%
 
 % Note: line numbers might not be consecutive and they don't start at index
-% 1. so we loop over the posibilities:
+% 1. So we loop over the posibilities:
 for linenumber = 1:99
     if ~isfile(fullfile( datapath, '/Poses/', [num2str(linenumber) '.json'] ))
         continue % SKIP!
@@ -47,20 +48,14 @@ for linenumber = 1:99
 
     thermalpath = fullfile( datapath, 'Images', num2str(linenumber) );
 
-    figure(100); hold on;
     for i_label = 1:length(images)
        thermal = undistortImage( imread(fullfile(thermalpath,images(i_label).imagefile)), ...
            thermalParams.cameraParams );
        M = images(i_label).M3x4;
        M(4,:) = [0,0,0,1];
        Ms{i_label} = M;
-       invM = inv(M);
-       pos = invM(:,4);
-       %M(4,:) = [0,0,0,1]
-       cam = plotCamera( 'Location', pos(1:3), 'Size', .2 ); hold on;
 
     end
-    axis equal
 
 
 

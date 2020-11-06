@@ -1,4 +1,6 @@
 % --------------- Example How to Load and Work with our thermal data ------
+% This scripts computes the average precision and FP and TP for our
+% testscenes!
 addpath 'util'
 clear all; clc; close all; % clean up!
 iou_threshold = .10;
@@ -15,4 +17,4 @@ results = readJSON( './results/yolov4-tiny_integral_results.json' );
 
 averagePrecision = evaluateDetectionPrecision(detections,gts,iou_threshold)
 
- [FP, TP, GT] = computeFpTpFn( detections, gts, iou_threshold, conf_threshold )
+[FP, TP, GT] = computeFpTpFn( detections, gts, iou_threshold, conf_threshold )
