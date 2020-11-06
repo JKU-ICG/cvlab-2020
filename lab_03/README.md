@@ -4,9 +4,10 @@ Slides and material for the course can be found on Moodle: https://moodle.jku.at
 
 # Structure
 
- * `*.m`: Matlab scripts
- * `data/`: contains data (e.g., images and .mat files) used in the scripts. Note that additional data needs to be downloaded! [(see `data/` for details)](./data/)
- * `results/`: results of the scripts will be written into that folder
+ * `*.m`: Matlab scripts.
+ * `util/`: Utility Matlab scripts, which help to work with our data.
+ * `data/`: contains data (e.g., images and .mat files) used in the scripts. Note that additional data needs to be downloaded [(see `data/` for details)](./data/)!
+ * `results/`: results of the scripts will be written into that folder.
    
 # Requirements
 

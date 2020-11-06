@@ -11,7 +11,7 @@ allsites = cat(2, trainingsites, testsites );
 for i_site = 1 %:length(trainingsites)
 %%
 %linenumber = '4';
-site = 'T8';
+site = 'F5';
 datapath = fullfile( './data/', site ); 
 
 thermalParams = load( './data/camParams_thermal.mat' );
