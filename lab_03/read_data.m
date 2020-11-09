@@ -1,4 +1,5 @@
 % --------------- Example How to Load and Work with our thermal data ------
+addpath 'util';
 clear all; clc; close all; % clean up!
 
 
